@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Laila", serif;
+}
+
+.container {
+    margin: 124px auto;
+    background-color: #FFF2D7;
+    max-width: 800px;
+    border-radius: 60px;
+    min-height: 500px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for both transform and box-shadow */
+}
+
+.container:hover {
+    transform: translateY(-10px); /* Moves the container 10px up */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Adds a shadow to enhance the lift effect */
+}
+
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    color: #D8AE7E;
+    font-size: 30px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    margin-right: 25px;
+    border: #D8AE7E solid 3px;
+    background-color: #FFF2D7;
+}
+
+button {
+    padding: 0 20px;
+    background-color: #D8AE7E;
+    border: none;
+    color: #FFF2D7;
+    font-family: "Laila", serif;
+}
+
+table {
+    margin: 0 auto; 
+    background-color: #D8AE7E;
+    width: 520px; 
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #FFF2D7;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left; 
+    vertical-align: top; 
+}
+th {
+    color: #D8AE7E;
+    font-weight: bold;
+}
+td {
+    color:#FFF2D7;
+}
+
+tbody tr {
+    height: auto; 
+}
+button:hover {
+    background-color: transparent;
+    border: #d8ae7e solid 3px;
+    color: #d8ae7e;
+    padding: 0 18px;
+}
+
+input::placeholder {
+    color: #D8AE7E; 
+    opacity: 1;  
+    font-family: "Laila", serif;  
+}
